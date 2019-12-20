@@ -23,7 +23,7 @@ public class ChatBot extends TelegramLongPollingBot {
 
 	@Override
 	public String getBotUsername() {
-		return "Testing Bot";
+		return "Name Bot";
 	}
 	
 	public void sendMensage(long idTelegram, String mensagem) {
@@ -68,8 +68,8 @@ public class ChatBot extends TelegramLongPollingBot {
 
 	@Override
 	public String getBotToken() {
-		// your bot token
-		return "1009680861:AAHv07SSSGNQCJpb60Uy3g1c01xW_4nb6nE";
+		// put your bot token
+		return "BOT TOKEN HERE!";
 	}
 	
 	public static void main(String args[]) {
